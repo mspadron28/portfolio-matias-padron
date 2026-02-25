@@ -1,26 +1,19 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Definimos tus colores personalizados según tu Hero Section */
+  --color-dark: #0f0f0f;
+  --color-accent: #c88a92;
+  --color-soft-white: #f5f5f5;
+
+  /* Agregamos una fuente limpia para tu perfil de dev */
+  --font-display: "Inter", "system-ui", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Estilos base para que el sitio siempre sea oscuro */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-soft-white);
+  font-family: var(--font-display);
+  margin: 0;
 }
