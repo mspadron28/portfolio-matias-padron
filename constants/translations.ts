@@ -69,7 +69,7 @@ export const translations = {
         },
       ],
     },
-     contact: {
+    contact: {
       title: "Have a project in mind?",
       subtitle: "Let’s talk about it.",
       description:
@@ -82,6 +82,10 @@ export const translations = {
         sending: "Sending...",
         success: "Message sent successfully!",
       },
+    },
+    footer: {
+      brand: "Matias Padron | Software Solutions",
+      rights: "All rights reserved.",
     },
   },
   es: {
@@ -167,6 +171,10 @@ export const translations = {
         sending: "Enviando...",
         success: "¡Mensaje enviado correctamente!",
       },
+    },
+    footer: {
+      brand: "Matias Padron | Software Solutions",
+      rights: "Todos los derechos reservados.",
     },
   },
 };
