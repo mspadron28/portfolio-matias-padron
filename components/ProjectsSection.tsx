@@ -100,7 +100,7 @@ const ProjectsSection = () => {
     },
     'Structural AI': {
       link: 'https://structuralads.com/',
-      image: '/projects/structural.png',
+      image: '/projects/structural_2.png',
       tech: ['Next.js', 'NestJS', 'Tailwind CSS', 'PostgreSQL', 'N8N', 'Docker'],
     },
   };
